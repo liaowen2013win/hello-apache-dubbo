@@ -10,6 +10,8 @@ import org.apache.dubbo.config.annotation.Service;
 import com.funtl.apache.dubbo.provider.api.EchoService;
 
 /**
+ * 服务提供方接口实现
+ *
  * @Author: L.Wen
  * @created_at: 2019/12/05 17:17
  */

@@ -1,22 +1,22 @@
 /**
- * @(#)ProviderApplication.java, 2019/12/05. 17:16
+ * @(#)ConsumerApplication.java, 2019/12/06. 17:35
  * @Author: L.Wen
  * <p/>
  */
-package com.funtl.apache.dubbo.provider;
+package com.funtl.apache.dubbo.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * 服务提供方
+ * 服务消费方
  *
  * @Author: L.Wen
- * @created_at: 2019/12/05 17:16
+ * @created_at: 2019/12/06 17:35
  */
 @SpringBootApplication
-public class ProviderApplication {
+public class ConsumerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ProviderApplication.class, args);
+        SpringApplication.run(ConsumerApplication.class, args);
     }
 }
