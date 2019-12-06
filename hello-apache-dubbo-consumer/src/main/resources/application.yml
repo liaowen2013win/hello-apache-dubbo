@@ -5,6 +5,7 @@ spring:
     allow-bean-definition-overriding: true
 dubbo:
   scan:
+    # 配置组件扫描，@Reference注解所在的包路径
     base-packages: com.funtl.apache.dubbo.consumer.controller
   protocol:
     name: dubbo
