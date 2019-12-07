@@ -70,8 +70,15 @@
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo-serialization-kryo</artifactId>
         </dependency>
-
         <!-- Apache Dubbo End -->
+        <!-- Spring Cloud Alibaba Begin -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
+
+        <!-- Spring Cloud Alibaba End -->
+
         <!-- Projects Begin -->
         <dependency>
             <groupId>com.funtl</groupId>
